@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="projetobaner">
+    <output-path>$PROJECT_DIR$/../../../../javafx-sdk-22/artifacts/projetobaner</output-path>
+    <root id="root">
+      <element id="archive" name="projetobaner.jar">
+        <element id="module-output" name="projetobaner" />
+      </element>
+    </root>
+  </artifact>
+</component>

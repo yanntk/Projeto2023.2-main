@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../../javafx-sdk-22/lib/lib.iml" filepath="$PROJECT_DIR$/../../../../javafx-sdk-22/lib/lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projetobaner/src/projetobaner.iml" filepath="$PROJECT_DIR$/projetobaner/src/projetobaner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projetobaner/target/target.iml" filepath="$PROJECT_DIR$/projetobaner/target/target.iml" />
+    </modules>
+  </component>
+</project>

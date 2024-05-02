@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Pos?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="root" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projeto.ProjetoBanner">
+    <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+              <StackPane fx:id="presentationPane" layoutX="280.0" layoutY="44.0" prefHeight="0.0" prefWidth="0.0">
+                  <children>
+                      <ImageView fx:id="imageView" fitWidth="2.0" />
+                  </children>
+              </StackPane>
+              <Button fx:id="selectImagesButton" layoutX="309.0" layoutY="486.0" mnemonicParsing="false" onAction="#selectImages" prefHeight="27.0" prefWidth="182.0" text="Selecionar imagens">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <AnchorPane layoutX="60.0" layoutY="61.0" prefHeight="384.0" prefWidth="679.0">
+               <children>
+                  <StackPane layoutX="31.0" layoutY="-69.0" prefHeight="427.0" prefWidth="649.0">
+                     <children>
+                        <ImageView fitHeight="398.0" fitWidth="641.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@banner.jpg" />
+                           </image>
+                        </ImageView>
+                        <AnchorPane prefHeight="392.0" prefWidth="606.0">
+                           <children>
+                              <StackPane layoutX="-96.0" layoutY="-20.0" prefHeight="150.0" prefWidth="200.0" />
+                              <ImageView fitHeight="239.0" fitWidth="176.0" layoutX="125.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                     <Image url="@imagem ufpb.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </StackPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+    </children>
+    <alignment>
+        <Pos fx:constant="BOTTOM_CENTER" />
+    </alignment>
+</StackPane>

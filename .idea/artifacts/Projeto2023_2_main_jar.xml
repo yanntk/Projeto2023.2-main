@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Projeto2023.2-main:jar">
+    <output-path>$PROJECT_DIR$/../../../../javafx-sdk-22/artifacts/Projeto2023_2_main_jar</output-path>
+    <root id="archive" name="Projeto2023.2-main.jar">
+      <element id="module-output" name="projetobaner" />
+      <element id="module-output" name="target" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../javafx-sdk-22/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../javafx-sdk-22/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../javafx-sdk-22/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../javafx-sdk-22/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../javafx-sdk-22/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../javafx-sdk-22/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../javafx-sdk-22/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../javafx-sdk-22/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="library" level="application" name="jdk-22" />
+    </root>
+  </artifact>
+</component>
